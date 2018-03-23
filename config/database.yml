@@ -1,0 +1,27 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: dem_development
+  port: 5432
+  username: root
+  password: exa10sept
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: dem_production
+  port: 5432
+  username: root
+  password: exa10sept
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: dem_test
+  port: 5432 
+  username: root
+  password: exa10sept
+  host: localhost
